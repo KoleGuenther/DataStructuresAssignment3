@@ -1,0 +1,13 @@
+Why is a stack the right choice for undo/redo?
+
+Stack is the right choice because you always want the most recent thing that has happened to be undone/redone. This works best with Stack because its a FIFO data structure, where things are quite literally 'stacked' on top of each other like a pile of papers, which works perfect for undo/redo.
+
+Why is a queue better suited for the help desk?
+
+A queue works well for the help desk because just like the name, you have to wait in queue when you are added to the list. This makes sense because the person who has waited the longest will get helped first, rather than someone who just joined waiting to be helped. If a stack were used, this would mean that only the newest person would be helped, which means that a person could wait forever before being helped if new people joined during the time it took to help someone.
+
+How do your implementations differ from Python’s built-in lists?
+
+Built in lists have to  keep track of where things are, whereas with lists entries can be put everywhere, order not mattering. These implementations make it so a specific data structure is going to be used, making it easier to understand and more efficient than a list.
+
+
